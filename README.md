@@ -40,7 +40,7 @@ Step 2. Add the dependency in app/build.gradle
 
 ## Code Examples
 
-[asyncStringGet] tag in xml file
+[asyncStringGet]
 
 ```
 VolleySimple.getInstance(this).asyncStringGet("your url", new VolleySimple.NetworkListener<String>() {
@@ -54,7 +54,7 @@ VolleySimple.getInstance(this).asyncStringGet("your url", new VolleySimple.Netwo
         });
 ```
 
-[asyncImageGet] tag in xml file
+[asyncImageGet] 
 
 ```
 VolleySimple.getInstance(this).asyncImageGet("your url", new VolleySimple.ImageListener() {
