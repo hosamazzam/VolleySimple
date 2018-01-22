@@ -463,6 +463,7 @@ public class VolleySimple {
 
             }
         });
+        Queue.add(imageRequest);
     }
 
     public void asyncImageGet(String url, final ImageListener imageListener) {
@@ -481,6 +482,7 @@ public class VolleySimple {
                 imageListener.onFailure(error);
             }
         });
+        Queue.add(imageRequest);
     }
 
     public void asyncImageGet(String url, final ImageView imageView, int maxWidth, int maxHeight) {
@@ -499,6 +501,7 @@ public class VolleySimple {
 
             }
         });
+        Queue.add(imageRequest);
     }
 
     public void asyncImageGet(String url, final ImageListener imageListener, int maxWidth, int maxHeight) {
@@ -517,6 +520,7 @@ public class VolleySimple {
                 imageListener.onFailure(error);
             }
         });
+        Queue.add(imageRequest);
     }
 
     public void asyncImageGet(String url, final ImageView imageView, int maxWidth, int maxHeight, ImageView.ScaleType scaleType) {
@@ -537,6 +541,7 @@ public class VolleySimple {
 
             }
         });
+        Queue.add(imageRequest);
     }
 
     public void asyncImageGet(String url, final ImageListener imageListener, int maxWidth, int maxHeight, ImageView.ScaleType scaleType) {
@@ -557,6 +562,7 @@ public class VolleySimple {
                 imageListener.onFailure(error);
             }
         });
+        Queue.add(imageRequest);
     }
 
     public void asyncImageGet(String url, final ImageView imageView, int maxWidth, int maxHeight, ImageView.ScaleType scaleType, Bitmap.Config decodeConfig) {
@@ -579,6 +585,7 @@ public class VolleySimple {
 
             }
         });
+        Queue.add(imageRequest);
     }
 
     public void asyncImageGet(String url, final ImageListener imageListener, int maxWidth, int maxHeight, ImageView.ScaleType scaleType, Bitmap.Config decodeConfig) {
@@ -601,6 +608,7 @@ public class VolleySimple {
                 imageListener.onFailure(error);
             }
         });
+        Queue.add(imageRequest);
     }
 
     public void asyncImageGet(String url, final ImageView imageView, ImageView.ScaleType scaleType) {
@@ -621,6 +629,7 @@ public class VolleySimple {
 
             }
         });
+        Queue.add(imageRequest);
     }
 
     public void asyncImageGet(String url, final ImageListener imageListener, ImageView.ScaleType scaleType) {
@@ -641,6 +650,7 @@ public class VolleySimple {
                 imageListener.onFailure(error);
             }
         });
+        Queue.add(imageRequest);
     }
 
 
