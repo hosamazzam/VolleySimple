@@ -30,7 +30,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency in app/build.gradle
 
 	dependencies {
-	        compile 'com.github.hosamazzam:VolleySimple:v1.0.0'
+	        implementation 'com.github.hosamazzam:VolleySimple:v1.0.0'
 	}
 
 ## Built With
